@@ -1,0 +1,52 @@
+
+body{
+    background-image: url('background-image.png');
+    
+    font-family: 'Rubik Puddles', cursive;
+    text-align: left;
+    margin-left: 30;
+
+
+    
+}
+
+
+
+.table, td , th{         /* dot refer to table class in html */    
+    border: 1px solid black;
+    
+}
+
+.img{
+    margin-left: 30px;
+    overflow: hidden;
+    text-align: left;
+  
+
+}
+
+
+
+
+
+div{
+    display:inline-block;
+   width: 600px;
+   vertical-align:top;
+   border: 1px solid black;
+   padding: 45px; /* the space between the content and what its above*/   
+   font-family: 'Rubik Puddles', cursive;
+}
+button{
+    background-color: rgb(210, 68, 68);
+    color: white;
+    border-radius: 8px;
+    top:148%;
+       left:55%;
+       width:100px;
+       height:40px;
+       position: absolute;/* relative to the nearset */ 
+       align-items: center;
+     
+}
+
